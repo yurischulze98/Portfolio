@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="dark light">
+  <meta name="theme-color" content="#0b0e12">
+  <meta name="description" content="Portfólio de Yuri Edward Schulze. Tecnologia, automação, experiência em TI e projetos de desenvolvimento, inteligência artificial e acessibilidade.">
+  <meta name="author" content="Yuri Edward Schulze">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:title" content="Yuri Schulze — Tecnologia, processos e código">
+  <meta property="og:description" content="Do suporte às soluções digitais. Conheça minha trajetória, projetos e estudos em desenvolvimento.">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Yuri Schulze — Portfólio</title>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Yuri Edward Schulze","url":"https://portfolio-yuri-murex.vercel.app/","jobTitle":"Analista de Suporte Júnior","sameAs":["https://github.com/yurischulze","https://www.linkedin.com/in/yuri-edward-schulze-615aa6182/"]}</script>
+</head>
+<body>
+  <svg class="icons-def" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6"/></symbol>
+    <symbol id="i-up" viewBox="0 0 24 24"><path d="M7 17 17 7M8 7h9v9"/></symbol>
+    <symbol id="i-down" viewBox="0 0 24 24"><path d="M12 4v16m-7-7 7 7 7-7"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 8h16M4 16h16"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="m5 5 14 14M19 5 5 19"/></symbol>
+    <symbol id="i-moon" viewBox="0 0 24 24"><path d="M20 15.2A8.5 8.5 0 0 1 8.8 4a8.5 8.5 0 1 0 11.2 11.2Z"/></symbol>
+    <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.9 4.9l1.4 1.4m11.4 11.4 1.4 1.4M2 12h2m16 0h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></symbol>
+    <symbol id="i-copy" viewBox="0 0 24 24"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 7 9-7"/></symbol>
+    <symbol id="i-github" viewBox="0 0 24 24"><path d="M9 19.7c-4.2 1.3-4.2-2.2-5.9-2.6M16 21v-3.5a3.1 3.1 0 0 0-.9-2.4c3-.3 6.2-1.5 6.2-6.8a5.3 5.3 0 0 0-1.5-3.7 5 5 0 0 0-.1-3.7s-1.2-.4-3.8 1.4a13.2 13.2 0 0 0-6.9 0C6.4.5 5.2.9 5.2.9a5 5 0 0 0-.1 3.7 5.3 5.3 0 0 0-1.5 3.7c0 5.3 3.2 6.5 6.2 6.8a3.1 3.1 0 0 0-.9 2.4V21"/></symbol>
+    <symbol id="i-linkedin" viewBox="0 0 24 24"><path d="M4 9v11M4 5.5v.1M9 20V9h4v1.6A4.2 4.2 0 0 1 20 14v6M13 20v-6"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></symbol>
+  </svg>
+  <div class="reading-line" aria-hidden="true"><span id="reading-progress"></span></div>
+
+  <header class="site-header" id="inicio">
+    <nav class="nav-shell container" aria-label="Navegação principal">
+      <a class="logo" href="#inicio" aria-label="Yuri Schulze — início"><span class="logo-mark">Y<span class="dot">.</span></span><span class="logo-caption">SCHULZE / DEV</span></a>
+      <div class="nav-links" id="main-menu">
+        <a href="#sobre">Sobre</a><a href="#experiencia">Experiência</a><a href="#projetos">Projetos</a><a href="#conhecimentos">Conhecimentos</a><a href="#contato">Contato</a>
+      </div>
+      <div class="nav-actions">
+        <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Alternar tema" title="Alternar tema"><svg class="icon" aria-hidden="true"><use href="#i-sun"/></svg></button>
+        <a class="nav-cta" href="#contato">Vamos conversar <svg class="icon" aria-hidden="true"><use href="#i-up"/></svg></a>
+        <button class="mobile-menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="main-menu" aria-label="Abrir menu"><svg class="icon" aria-hidden="true"><use href="#i-menu"/></svg></button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" aria-labelledby="hero-title">
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="eyebrow-line"></span><span class="live-dot"></span> PRAZER, EU SOU YURI SCHULZE</div>
+          <h1 id="hero-title">Entre pessoas,<br>processos e <span class="display-emphasis">código<span class="period">.</span></span></h1>
+          <p class="hero-intro">Profissional de TI que transforma desafios do dia a dia em oportunidades de criar. Hoje atuo com <strong>operações de suporte</strong> e construo meu caminho no <strong>desenvolvimento de software.</strong></p>
+          <div class="hero-tags" aria-label="Áreas de interesse"><span>Desenvolvimento</span><span>Automação</span><span>Inteligência artificial</span></div>
+          <div class="hero-buttons">
+            <a class="btn btn-lime" href="#projetos">Explorar meus projetos <svg class="icon" aria-hidden="true"><use href="#i-up"/></svg></a>
+            <a class="btn btn-outline" href="#sobre">Minha história <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </div>
+          <div class="hero-meta"><span><span class="small-orbit">✳</span> Joinville, SC · Brasil</span><span>Disponível para conexões e novos desafios</span></div>
+        </div>
+        <div class="hero-visual" aria-label="Apresentação visual de Yuri Schulze">
+          <div class="hero-visual-top"><span>PORTFÓLIO / 2026</span><span>001—008</span></div>
+          <div class="photo-frame"><div class="portrait-monogram" aria-hidden="true">YS</div><img id="hero-photo" src="https://portfolio-yuri-murex.vercel.app/assets/eu.jpeg" alt="Foto de Yuri Schulze" decoding="async" fetchpriority="high" onerror="this.style.display='none'"/></div>
+          <div class="floating-label"><span class="signal-icon">✳</span><span>Curioso por natureza.<br><strong>Builder por escolha.</strong></span></div>
+          <div class="hero-visual-bottom"><span>BUILD • LEARN • IMPROVE</span><span>↗ 26.10</span></div>
+        </div>
+      </div>
+      <a class="scroll-note" href="#sobre"><span>SCROLL PARA EXPLORAR</span><svg class="icon" aria-hidden="true"><use href="#i-down"/></svg></a>
+    </section>
+
+    <div class="marquee-band" aria-hidden="true"><div class="marquee-track"><span>PROBLEMAS REAIS <b>✳</b> SOLUÇÕES ÚTEIS <b>✳</b> CURIOSIDADE CONSTANTE <b>✳</b> PROBLEMAS REAIS <b>✳</b> SOLUÇÕES ÚTEIS <b>✳</b> CURIOSIDADE CONSTANTE <b>✳</b></span><span>PROBLEMAS REAIS <b>✳</b> SOLUÇÕES ÚTEIS <b>✳</b> CURIOSIDADE CONSTANTE <b>✳</b> PROBLEMAS REAIS <b>✳</b> SOLUÇÕES ÚTEIS <b>✳</b> CURIOSIDADE CONSTANTE <b>✳</b></span></div></div>
+
+    <section class="section about-section container" id="sobre" aria-labelledby="about-title">
+      <div class="section-top reveal"><span class="section-index">01 / SOBRE MIM</span><span class="section-divider"></span><span class="section-side">CONHEÇA O LADO HUMANO</span></div>
+      <div class="about-grid">
+        <div class="about-heading reveal"><h2 class="section-heading" id="about-title">Não sou só<br>linhas de <em>código.</em></h2><span class="asterisk" aria-hidden="true">✳</span></div>
+        <div class="about-description reveal">
+          <p class="lead">Sou o Yuri, nascido e criado em Joinville (SC), apaixonado por tecnologia, games e por entender como as coisas funcionam.</p>
+          <p>Minha trajetória passa por áreas diferentes — de processos corporativos ao suporte de TI — e cada etapa fortaleceu minha capacidade de comunicar, organizar e resolver problemas reais.</p>
+          <p>Atualmente trabalho na <strong>By Seven</strong>, curso <strong>Sistemas de Informação na UniSociesc</strong> e aprofundo meus estudos em <strong>C#, .NET, desenvolvimento web e inteligência artificial.</strong> Quero unir minha experiência operacional à construção de produtos digitais que façam sentido para as pessoas.</p>
+          <a class="inline-link" href="#experiencia">Conheça minha trajetória <svg class="icon" aria-hidden="true"><use href="#i-up"/></svg></a>
+        </div>
+      </div>
+      <div class="values-grid reveal">
+        <article class="value-card"><span class="value-index">/ 01</span><span class="value-symbol">◎</span><h3>Resolver antes de complicar</h3><p>Gosto de observar processos e identificar melhorias práticas, não apenas criar soluções bonitas.</p></article>
+        <article class="value-card"><span class="value-index">/ 02</span><span class="value-symbol">↗</span><h3>Aprender construindo</h3><p>Transformo dúvidas e experiências de trabalho em estudos, protótipos e experimentos.</p></article>
+        <article class="value-card"><span class="value-index">/ 03</span><span class="value-symbol">✳</span><h3>Tecnologia para pessoas</h3><p>Tenho interesse especial por acessibilidade, automação e experiências digitais mais simples.</p></article>
+      </div>
+    </section>
+
+    <section class="section experience-section" id="experiencia" aria-labelledby="exp-title">
+      <div class="container">
+        <div class="section-top reveal"><span class="section-index">02 / TRAJETÓRIA</span><span class="section-divider"></span><span class="section-side">EXPERIÊNCIAS QUE CONECTAM</span></div>
+        <div class="section-title-row reveal"><div><h2 class="section-heading" id="exp-title">Minha estrada<br>até <em>aqui.</em></h2><p class="section-deck">Uma trajetória construída entre atendimento, tecnologia, processos e melhoria contínua.</p></div><span class="side-note">2015 — HOJE</span></div>
+        <div class="timeline" id="timeline"></div>
+        <div class="education-panel reveal"><div class="edu-icon">✳</div><div><span class="overline">FORMAÇÃO ACADÊMICA</span><h3>Bacharelado em Sistemas de Informação</h3><p>UniSociesc · Joinville, SC</p></div><span class="edu-period">2024 — em andamento<br><small>Conclusão prevista em 2026</small></span></div>
+      </div>
+    </section>
+
+    <section class="section projects-section container" id="projetos" aria-labelledby="projects-title">
+      <div class="section-top reveal"><span class="section-index">03 / PROJETOS</span><span class="section-divider"></span><span class="section-side">IDEIAS EM MOVIMENTO</span></div>
+      <div class="section-title-row projects-title-row reveal"><div><h2 class="section-heading" id="projects-title">Coisas que tiro<br><em>do papel.</em></h2><p class="section-deck">Projetos práticos, experimentos e pesquisas. Cada um mostra o que estou aprendendo e os problemas que quero resolver.</p></div><div class="project-count"><span id="projects-total">08</span><small>INICIATIVAS<br>REGISTRADAS</small></div></div>
+      <div class="project-toolbar reveal"><div class="filter-buttons" id="filters" role="group" aria-label="Filtrar projetos"><button class="filter active" data-filter="Todos" aria-pressed="true">Todos</button><button class="filter" data-filter="Automação" aria-pressed="false">Automação</button><button class="filter" data-filter="Inteligência artificial" aria-pressed="false">IA</button><button class="filter" data-filter="Pesquisa & produto" aria-pressed="false">Produto & pesquisa</button><button class="filter" data-filter="Web" aria-pressed="false">Web</button></div><span class="showing-counter" id="project-visible-count">Exibindo 8 projetos</span></div>
+      <div class="projects-grid" id="projects-grid" aria-live="polite"></div>
+      <p class="project-disclaimer">Transparência importa: projetos estão identificados como publicados, protótipos, conceitos ou pesquisas. Experiências internas são descritas sem divulgar informações confidenciais.</p>
+    </section>
+
+    <section class="section skills-section" id="conhecimentos" aria-labelledby="skills-title"><div class="container"><div class="section-top reveal"><span class="section-index">04 / CONHECIMENTOS</span><span class="section-divider"></span><span class="section-side">EM CONSTANTE EVOLUÇÃO</span></div><div class="section-title-row reveal"><div><h2 class="section-heading" id="skills-title">Meu repertório<br><em>técnico.</em></h2><p class="section-deck">O que já aplico, o que estudo e as ferramentas que fazem parte da minha rotina.</p></div></div><div class="skill-grid" id="skill-grid"></div><div class="learning-strip reveal"><span>MINHA PRÓXIMA FRONTEIRA</span><strong>C# <span>→</span> .NET <span>→</span> APIs <span>→</span> Produtos reais</strong><span class="learning-star">✳</span></div></div></section>
+
+    <section class="section personal-section container" aria-labelledby="personal-title"><div class="section-top reveal"><span class="section-index">05 / ALÉM DA TELA</span><span class="section-divider"></span><span class="section-side">O QUE ME MOVE</span></div><div class="personal-grid"><div class="reveal"><h2 class="section-heading" id="personal-title">O ser humano<br>por trás do <em>dev.</em></h2><p class="section-deck">A tecnologia é uma das minhas paixões — mas não é a única.</p></div><div class="personal-cards"><article class="personal-card reveal"><div class="personal-card-icon">≈</div><span class="overline">ESPORTE & SUPERAÇÃO</span><h3>A natação me ensinou a persistir.</h3><p>Minha jornada como atleta de natação paralímpica incluiu competições pelo Brasil e conquistas que me ensinaram disciplina, foco e trabalho em equipe.</p></article><article class="personal-card reveal"><div class="personal-card-icon">✳</div><span class="overline">CURIOSIDADE CONSTANTE</span><h3>Jogos, tecnologia e boas ideias.</h3><p>Gosto de games, de descobrir novas ferramentas e de explorar como a tecnologia pode ampliar possibilidades no cotidiano. Fora das telas, meus gatos também fazem parte dessa rotina.</p></article></div></div></section>
+
+    <section class="contact-section" id="contato" aria-labelledby="contact-title"><div class="container"><div class="section-top reveal"><span class="section-index">06 / CONTATO</span><span class="section-divider"></span><span class="section-side">CONEXÕES GERAM OPORTUNIDADES</span></div><div class="contact-wrap"><div class="reveal"><div class="contact-eyebrow"><span class="live-dot"></span> ABERTO A CONEXÕES</div><h2 id="contact-title">Vamos criar<br>algo <em>legal?</em></h2><p>Quer conversar sobre tecnologia, trocar ideias ou conhecer melhor meu trabalho? Minha caixa de entrada está aberta.</p><div class="contact-buttons"><a class="btn btn-dark" id="email-link" href="mailto:yesyuri98@gmail.com?subject=Contato%20pelo%20portf%C3%B3lio">Enviar um e-mail <svg class="icon" aria-hidden="true"><use href="#i-up"/></svg></a><button class="copy-email" id="copy-email" type="button" aria-live="polite"><svg class="icon" aria-hidden="true"><use href="#i-copy"/></svg><span>Copiar e-mail</span></button></div></div><div class="contact-visual reveal" aria-hidden="true"><div class="contact-visual-ring ring-1"></div><div class="contact-visual-ring ring-2"></div><span>YS<span>.</span></span></div></div></div></section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-main"><div><a class="logo footer-logo" href="#inicio"><span class="logo-mark">Y<span class="dot">.</span></span><span class="logo-caption">SCHULZE / DEV</span></a><p>Construindo meu caminho, um projeto de cada vez.</p></div><div class="footer-socials"><a id="github-link" href="https://github.com/yurischulze" target="_blank" rel="noopener noreferrer">GitHub <svg class="icon" aria-hidden="true"><use href="#i-up"/></svg></a><a id="linkedin-link" href="https://www.linkedin.com/in/yuri-edward-schulze-615aa6182/" target="_blank" rel="noopener noreferrer">LinkedIn <svg class="icon" aria-hidden="true"><use href="#i-up"/></svg></a><a id="instagram-link" href="https://www.instagram.com/yurischulze/" target="_blank" rel="noopener noreferrer">Instagram <svg class="icon" aria-hidden="true"><use href="#i-up"/></svg></a><a href="curriculo-yuri-schulze.pdf" target="_blank" rel="noopener noreferrer">Currículo (PDF) <svg class="icon" aria-hidden="true"><use href="#i-up"/></svg></a></div></div><div class="container footer-bottom"><span>© <span id="year">2026</span> Yuri Edward Schulze</span><span>FEITO COM CURIOSIDADE + CAFÉ ☕</span><a href="#inicio">Voltar ao topo ↑</a></div></footer>
+
+  <dialog class="project-modal" id="project-modal" aria-labelledby="modal-title"><div class="modal-inner"><button id="modal-close" class="modal-close" type="button" aria-label="Fechar detalhes"><svg class="icon" aria-hidden="true"><use href="#i-close"/></svg></button><div id="modal-content"></div></div></dialog>
+  <div class="toast" role="status" id="toast" aria-live="polite"></div>
+  <script src="js/content.js"></script><script src="js/main.js" defer></script>
+</body>
+</html>
